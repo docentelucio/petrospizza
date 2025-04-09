@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    background: #ca6e05;
+}
+
+.logo img{
+    width: 200px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+header nav ul li a{
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+header nav ul li a:hover{    
+    color: #000;
+    background: #f1aa59;
+}
+
+.social-icons ul{
+    display: flex;
+    gap: 15px;
+}
+
+.portada-principal{
+    height: 480px;    
+    background-image: linear-gradient(rgba(5, 7, 12, .70)), url(/images/fondo-portada.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.portada-principal .contenedor-portada h1{
+    color: #fff;
+    font-size: 42px;
+}
+
+.portada-principal .contenedor-portada ul{
+    display: flex;    
+    gap: 20px;    
+}
+
+.portada-principal .contenedor-portada ul li a{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 40px;    
+    background: #fff;
+    border-radius: 8px;
+    gap: 10px;    
+}
+
+.portada-principal .contenedor-portada ul li a:hover{
+    transform: scale(1.1);
+}
+
+.portada-principal .contenedor-portada ul li a img{
+    width: 24px;
+}
+
+.portada-principal .contenedor-portada ul li a span{
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}

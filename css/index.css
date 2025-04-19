@@ -57,7 +57,7 @@ header nav ul li a:hover{
 
 .portada-principal{
     height: 480px;    
-    background-image: linear-gradient(rgba(5, 7, 12, .70)), url(/images/fondo-portada.jpg);
+    background-image: linear-gradient(rgba(5, 7, 12, .70)), url(/media/images/fondo-portada.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,3 +99,34 @@ header nav ul li a:hover{
     font-weight: bold;
     font-size: 13px;
 }
+
+/* Aqui comienzan los iconos del menú */
+
+.iconos-menu{
+    display: flex;
+    justify-content: center;   
+    margin: 30px auto;
+}
+
+.iconos-menu div a{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+
+.iconos-menu div a:hover{
+    transform: scale(1.09);
+}
+
+.iconos-menu div a span{
+    color: #000;
+    font-size: 14px;
+}
+
+.iconos-menu div a img{
+    width: 40px;
+}
+
